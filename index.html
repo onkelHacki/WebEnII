@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>WebEnII</title>
+        <meta name="description" content="">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="cleartype" content="on">
+
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+        <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <meta name="msapplication-TileColor" content="#222222">
+
+
+        <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
+        <!--
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="">
+        -->
+
+        <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+        <!--
+        <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+        -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+		<link href="css/genericons.css" rel="stylesheet" type="text/css"/>
+	   	<link href="css/fontello.css" rel="stylesheet" type="text/css"/>
+	   	<link href="css/fontello-codes.css" rel="stylesheet" type="text/css"/>   
+	   	<link href="css/fontello-embedded.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <!-- Add your site or application content here -->
+		<!--####################################################################
+		####################### START HTML ###################################
+		#####################################################################-->
+		<h1>Appfall EN</h1>
+		
+		<main>
+			Liebe Kolleginnen, liebe Kollegen,<br/><br/>
+			hier seht ihr die ersten Ergebnisse meiner Bem&uuml;hungen, dem Kreis eine WebApp in Sachen Abfall zu erstellen. <br/>
+			Dazu brauchen wir: 
+			<ol>
+				<li>CSS3 <a href='#' class="icon-css3"></a></li>
+				<li>HTML5 <a href='#' class="icon-html5"></a></li>
+				<li>JavaScript</li>
+				<li>Testobjekte wie <a href='#' class="icon-tablet"></a><a href='#' class="icon-laptop"></a></li>
+				<li><a href='http://www.sencha.com/products/touch' target='blank'>Sencha Touch</a></li> 
+			</ol>
+			<br/>
+			Dank umfangreicher, vor Jahren durchgef&uuml;hrter Vorarbeiten f&uuml;r eine eigene Homepage, sind die Inhalte so gut wie gegeben. Bleibt &quot;nur&quot; noch die WebApp so zu gestalten, dass sie auf einem Smartphone funktioniert und ansprechend aussieht.
+			Im einzelnen sollte die WebApp folgendes bieten:
+			<ol>
+				<li>Abfall-ABC</li>
+				<li>Kostenzusammenstellung (blauer Zettel 2014</li>
+				<li>Google-Maps mit eigenem Standort und Entfernung zur n&auml;chsten UA samt Routing</li>
+				<li>Rubrik FAQ</li>
+				<li>Kontakt zu uns Mail/Tele</li>
+			</ol>
+			Damit ihr einen ersten funktionalen Eindruck von der ganzen Sache bekommt, schaut doch einfach mal hier vorbei und seht euch dieses Wireframe an:
+			<a href="https://popapp.in/projects/5303a4085253dcea133a7a05/preview"> Appfall_EN <a/><br/>
+							
+					
+		</main>
+			
+		<section id="uebersicht">
+			<h2> Ihre Entfernung zur Umladeanlage...</h2>
+			<ul>
+				<!-- Wird dynamisch gefüllt -->		
+			</ul>
+		</section>
+			
+		<hr>
+			<section id="googlemap" > </section>
+		<hr>
+	
+		<section id="abc">			
+			<h2> Abfall ABC - Wohin mit ...?</h2>
+			<ul>
+				<!-- Wird dynamisch gefüllt abc.json -->
+			</ul>
+		</section>		
+					
+					
+	<!--####################################################################
+	####################### END HTML #####################################
+	#####################################################################-->
+	
+	
+	<!--####################################################################
+	####################### START JavaScript ################################
+	#####################################################################-->
+        <script src="js/vendor/zepto.min.js"></script>
+        <script src="js/helper.js"></script>
+		<script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        
+        <script>
+            var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+            g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+            s.parentNode.insertBefore(g,s)}(document,"script"));
+			
+			
+			
+		//Geolocation: 4 JavaScript steps
+		//1. detect if geolocation is supported
+		//2. request current position
+		//3. if it fails, handle the error switch/case: case 1: alert('permission denied'), case 2: alert('position unavailable'), case 3: alert('time out'), case 4: alert('unknown error')
+		//4. if it succeeds, do something with the coordinates
+		
+		var longitude;
+		var latitude;
+		var accuracy;
+		var altitude;
+		var timestamp;
+		
+		var entfernungBerechnen = function(meineLongitude, meineLatitude, long1, lat1){
+			erdRadius = 6371;
+			meineLongitude = meineLongitude * (Math.PI/180);
+			meineLatitude = meineLatitude * (Math.PI/180);
+			long1 = long1 * (Math.PI/180);
+			lat1 = lat1 * (Math.PI/180);
+			
+			x0 = meineLongitude * erdRadius * Math.cos(meineLatitude);
+			y0 = meineLatitude * erdRadius;
+			
+			x1 = long1 * erdRadius * Math.cos(lat1);
+			y1 = lat1 * erdRadius;
+			
+			dx = x0 - x1;
+			dy = y0 - y1;
+			
+			d = Math.sqrt((dx*dx)+(dy*dy));
+			
+			if(d<1){
+				return Math.round(d*1000)+' m';
+			} else {
+				return Math.round(d*10)/10+' km';
+			}
+		};
+		
+		$(function(){
+			navigator.geolocation.getCurrentPosition(positionsAusgabe);
+		});
+		
+		
+		var positionsAusgabe = function(position){
+			longitude = position.coords.longitude;
+			latitude = position.coords.latitude;
+			accuracy = position.coords.accuracy;
+			altitude= position.coords.altitude;
+			timestamp = position.coords.timestamp;
+			
+			var img = new Image();
+			img.src = "http://maps.googleapis.com/maps/api/staticmap?center=" + latitude + "," + longitude + "&zoom=15&markers=color:blue|label:S|size:huge|"+latitude+","+longitude+"&maptype=hybrid&zoom=14&size=100x100&sensor=false";
+
+			var img2 = new Image();
+			img2.src = "http://maps.googleapis.com/maps/api/staticmap?center=" + latitude + "," + longitude + "&zoom=15&markers=color:blue|label:S|size:huge|"+latitude+","+longitude+"&maptype=hybrid&zoom=14&size=100x100&sensor=false";
+			
+			$('#longitude td').html(" " +longitude);
+			$('#latitude td').html(" " + latitude);
+			$('#accuracy td').html(" " + accuracy);
+			console.log(accuracy);
+			
+			$.getJSON('json/ua.json?='+Date.now(), function(json){
+				$.each(json, function(index, obj){
+					var map_url = "http://maps.googleapis.com/maps/api/staticmap?center="+obj.Position.Latitude+","+obj.Position.Longitude+"&markers=color:blue|label:S|size:normal|"+obj.Position.Latitude+","+obj.Position.Longitude+"&maptype=hybrid&zoom=16&size=50x50&scale=1.5&sensor=false";
+					$('#uebersicht').find('ul').append('<li><img src='+map_url+' />'+ index +' <span>'+ entfernungBerechnen(longitude, latitude, obj.Position.Longitude, obj.Position.Latitude) +'</span></li>');
+					});
+			});
+			
+
+			$('#googlemap').html('<p>Sie befinden sich hier:</p>');
+			$('#googlemap').append(img);
+			$('#googlemap').append('<p>&plusmn'+accuracy+' m.</p>');
+			//$('#googlemap').append(img2);
+		}
+		
+		$.getJSON('json/abc.json?='+Date.now(), function(json){
+				$.each(json.abfall, function(index, obj){
+					console.log(index, obj.name, obj.disposal);
+					$('#abc').find('ul').append('<li>'+ obj.name +'<span>'+obj.disposal+'</span></li>');
+					});
+			});
+			
+        </script>
+		
+		
+	 <!--###################################################################
+	####################### END JavaScript #################################
+	####################################################################-->
+    </body>
+</html>

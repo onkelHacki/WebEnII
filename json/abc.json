@@ -1,0 +1,320 @@
+{
+    "abfall": [
+
+
+	 {
+            "name": "Abbeizmittel",
+            "disposal": "Problemabfallsammlung"
+        },
+        {
+            "name": "Abflussreiniger",
+            "disposal": "Problemabfallsammlung"
+        },
+        {
+            "name": "Altkleider",
+            "disposal": "Altkleidercontainer/ Second-Hand-Laden"
+        },
+        {
+            "name": "Alt\u00f6l",
+            "disposal": "Problemabfallsammlung"
+        },
+        {
+            "name": "Aluminiumverpackungen",
+            "disposal": "Gelber Sack"
+        },
+        {
+            "name": "Anrufbeantworter",
+            "disposal": "Elektro- &amp Elektronikschrottsammlung"
+        },
+        {
+            "name": "Arzneimittel",
+            "disposal": "Apotheke"
+        },
+        {
+            "name": "Asbestabf\u00E4lle",
+            "disposal": "Deponie Br\u00FChne in Wetter/Entsorgung Bergische Region in Wuppertal"
+        },
+        {
+            "name": "Autobatterien",
+            "disposal": "Handel/(Problemabfallsammlung)"
+        },
+        {
+            "name": "Autofelgen",
+            "disposal": "Handel/Umladeanlagen Witten &amp Gevelsberg"
+        },
+        {
+            "name": "Autoreifen",
+            "disposal": "Handel/ Umladeanlagen Witten &amp Gevelsberg"
+        },
+        {
+            "name": "Batterien",
+            "disposal": "Handel/(Problemabfallsammlung)"
+        },
+        {
+            "name": "Baumschnitt",
+            "disposal": "Biotonne/Kompost, gr\u00f6&szligere Mengen: Umladeanlagen Witten &amp Gevelsberg"
+        },
+        {
+            "name": "Bauschutt/Baustellenabf\u00E4lle",
+            "disposal": "Umladeanlage Witten &amp Gevelsberg/Deponie Br\u00FChne in Wetter/Entsorgung Bergische Region in Wuppertal/Aufbereitungsanlage in Hagen"
+        },
+        {
+            "name": "Bettw\u00E4sche",
+            "disposal": "Altkleidercontainer/graue Tonne"
+        },
+        {
+            "name": "Binden",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Biom\u00FCll",
+            "disposal": "Biotonne/Kompost"
+        },
+        {
+            "name": "Blaues Glas",
+            "disposal": "Glascontainer - Gr\u00FCnglaskammer"
+        },
+        {
+            "name": "Blisterverpackungen",
+            "disposal": "gelber Sack"
+        },
+        {
+            "name": "Bleiglas",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Blumenerde, alte",
+            "disposal": "Biotonne, Kompost"
+        },
+        {
+            "name": "Blument\u00F6pfe",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Bodenaushub (unbelastet)",
+            "disposal": "Deponie Br\u00FChne in Wetter"
+        },
+        {
+            "name": "Bodenbel\u00E4ge",
+            "disposal": "graue Tonne/Umladeanlagen Witten &amp Gevelsberg"
+        },
+        {
+            "name": "Bohrmaschine",
+            "disposal": "Elektro- &amp Elektronikschrottsammlung"
+        },
+        {
+            "name": "Brat- &amp Frittierfett, kalt",
+            "disposal": "Biotonne (in Papier verpackt)"
+        },
+        {
+            "name": "Bremsfl\u00FCssigkeit",
+            "disposal": "Problemabfallsammlung"
+        },
+        {
+            "name": "Brot, -rest, auch schimmelig",
+            "disposal": "Biotonne"
+        },
+        {
+            "name": "B\u00FCcher",
+            "disposal": "Altpapiercontainer/-tonne/Antiquariat"
+        },
+	{
+            "name": "Chemikalienreste",
+            "disposal": "Problemabfallsammlung"
+        },
+        {
+            "name": "Computer, -teile",
+            "disposal": "Elektro- und Elektronikschrottsammlung"
+        },
+        {
+            "name": "Damenbinden",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Deckel v. Konservengläsern",
+            "disposal": "gelber Sack"
+        },
+        {
+            "name": "Desinfektionsmittel",
+            "disposal": "Problemabfallsammlung"
+        },
+        {
+            "name": "Dias",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Disketten",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Dosen, leere",
+            "disposal": "gelberSack"
+        },
+        {
+            "name": "Draht",
+            "disposal": "graueTonne"
+        },
+        {
+            "name": "Druckgasflaschen",
+            "disposal": "Handel"
+        },
+        {
+            "name": "Dunstabzugshauben",
+            "disposal": "Elektro-undElektronikschrottsammlung"
+        },
+	{
+            "name": "Eierkocher, defekt",
+            "disposal": "Elektro- und Elektronikschrottsammlung"
+        },
+        {
+            "name": "Eierschalen",
+            "disposal": "Biotonne / Kompost"
+        },
+        {
+            "name": "Einweggeschirr",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Einwegrasierer",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Elektrogeräte",
+            "disposal": "Elektro- und Elektronikschrottsammlung"
+        },
+        {
+            "name": "Energiesparlampen",
+            "disposal": "Problemabfallsammlung"
+        },
+        {
+            "name": "Fahrrad",
+            "disposal": "Sperrmüll"
+        },
+        {
+            "name": "Farbeimer",
+            "disposal": "Problemabfallsammlung"
+        },
+        {
+            "name": "Farben",
+            "disposal": "Problemabfallsammlung"
+        },
+        {
+            "name": "Federbetten",
+            "disposal": "Altkeidercontainer / graue Tonne"
+        },
+        {
+            "name": "Fensterglas",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Fernseher",
+            "disposal": "Elektro- und Elektronikschrottsammlung"
+        },
+        {
+            "name": "Fette, erkaltet",
+            "disposal": "Biotonne / Kompost in Papier verpackt"
+        },
+        {
+            "name": "Feuerlöscher",
+            "disposal": "Handel"
+        },
+        {
+            "name": "Feuerzeuge",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Filme",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Filzstifte",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Flaschen",
+            "disposal": "Glascontainer"
+        },
+        {
+            "name": "Fleckentferner",
+            "disposal": "Problemabfallsammlung"
+        },
+        {
+            "name": "Fleischreste",
+            "disposal": "Biotonne/Kompost"
+        },
+
+	{
+            "name": "Folien",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Folienverpackungen",
+            "disposal": "gelber Sack"
+        },
+        {
+            "name": "Fotografien",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Frostschutzmittel",
+            "disposal": "Problemabfallsammlung"
+        },
+        {
+            "name": "Füllhalterpatronen",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Fußbodenbelag",
+            "disposal": "graue Tonne/ Umladeanlagen Witten und Gevelsberg"
+        },
+        {
+            "name": "Gartenabfall",
+            "disposal": "Biotonne / Kompost"
+        },
+        {
+            "name": "Gasherd",
+            "disposal": "Handel / Elektro- und Elektronikschrottsammlung"
+        },
+        {
+            "name": "Gefriergeräte",
+            "disposal": "Kühlgerätesammlung an den Umladeanlagen"
+        },
+        {
+            "name": "Geschirr",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Geschirrspülmaschine",
+            "disposal": "Elektro- und Elektronikschrottsammlung"
+        },
+        {
+            "name": "Getränkedosen",
+            "disposal": "gelber Sack / Container"
+        },
+        {
+            "name": "Glasscheiben",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Glaswolle",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Glühbirnen",
+            "disposal": "graue Tonne"
+        },
+        {
+            "name": "Grünschnitt",
+            "disposal": "Biotonne / Kompost"
+        },
+        {
+            "name": "Gummi",
+            "disposal": "graue Tonne"
+        }
+
+
+
+
+
+    ]
+}
